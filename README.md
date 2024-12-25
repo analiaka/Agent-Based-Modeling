@@ -29,8 +29,12 @@ Analyze survey data to extract meaningful insights. This includes:
 **Key Notebook**: `notebooks/01_survey_data_analysis.ipynb`
 
 ### 2. Working with Different Data Formats
-Handle various data formats (e.g., CSV, Excel, JSON) to ensure compatibility with analytical tools. This step focuses on:
+In survey data analysis, categorical variables often need to be transformed into numerical values before they can be used in statistical analyses or machine learning models. This transformation is particularly important when working with methods like Principal Component Analysis (PCA), which require numerical input. This step focuses on:
+
 - Data import/export operations.
+
+- Transforming categorical variables into numerical values.
+
 - Merging and reshaping data to prepare for downstream analyses.
 
 **Key Notebook**: `notebooks/02_data_formats.ipynb`
