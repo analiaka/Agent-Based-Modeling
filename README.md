@@ -42,15 +42,12 @@ Assess the dataset’s suitability for dimensionality reduction using Principal 
 
 **Key Notebook**: `notebooks/03_pca_suitability_tests.ipynb`
 
-### 4. Principal Component Analysis (PCA)
+### 4. Principal Component Analysis (PCA) and Cluster Analysis (CA)
 Reduce the dimensionality of the data while retaining the most important features by:
 - Standardizing numeric data.
 - Performing PCA to extract key components.
 - Visualizing results using scree plots, cumulative explained variance plots, and biplots.
 
-**Key Notebook**: `notebooks/04_pca_analysis.ipynb`
-
-### 5. Cluster Analysis (CA)
 Group similar observations to uncover patterns in the data, which can inform agent behavior in the ABM. This involves:
 - Applying clustering algorithms (e.g., k-means, hierarchical clustering).
 - Selecting the optimal number of clusters using elbow plots and silhouette scores.
@@ -58,7 +55,7 @@ Group similar observations to uncover patterns in the data, which can inform age
 
 **Key Notebook**: `notebooks/05_cluster_analysis.ipynb`
 
-### 6. Creating the Agent-Based Model (ABM)
+### 5. Creating the Agent-Based Model (ABM)
 Develop an ABM based on the insights gained from survey data and clustering. Key steps include:
 - Defining agents, their attributes, and behaviors.
 - Designing interactions and environmental dynamics.
