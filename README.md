@@ -10,7 +10,7 @@ This repository is dedicated to the creation of an **Agent-Based Model (ABM)** a
 
 ## Repository Structure
 
-- **`data/`**: Contains survey data and other datasets required for analyses.
+- **`data/`**: Use your own survey data because datasets required for analyses are not provided.
 - **`notebooks/`**: Jupyter notebooks for each step in the workflow.
 - **`scripts/`**: Python scripts for replicating key analyses and generating models.
 - **`results/`**: Outputs from PCA, clustering, and ABM simulations.
